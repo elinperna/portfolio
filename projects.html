@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <title>Projects — Elin Pernå</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" style="text-decoration:none; color:inherit;">
+        <div class="brand-dot"></div>
+        <div>
+          <div class="brand-name">Elin Pernå</div>
+          <div class="brand-sub">Portfolio</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Work Experience</a>
+        <a href="education.html">Education</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero hero--simple">
+      <div class="hero-text">
+        <h1>Projects</h1>
+        <p>
+          A collection of hands-on engineering projects, laboratory work and technical prototypes 
+          across electronics, automation and applied physics.
+        </p>
+
+        <div class="filters" aria-label="Project filters">
+          <button class="chip is-active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="particle" type="button">Particle physics</button> 
+          <button class="chip" data-filter="programming" type="button">Programming</button>
+          <button class="chip" data-filter="mechatronics" type="button">Mechatronics</button>
+          <button class="chip" data-filter="mechanics" type="button">Mechanics</button>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-title">Project-driven learning</div>
+        <ul class="bullets">
+          <li>Many of my projects are self-initiated and developed outside formal coursework, 
+            focusing on practical implementation, experimentation, and system integration. </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>All projects</h2>
+        <div class="section-actions">
+          <input id="search" class="search" type="search" placeholder="Search projects…" aria-label="Search projects">
+        </div>
+      </div>
+
+      <div class="grid grid--projects" id="projectsGrid">
+
+        <!-- Arduino car -->
+        <article class="card project" data-tags="programming mechatronics">
+          <img class="card-img" src="images/ArduinoCAD.png" alt="Arduino car prototype">
+          <div class="card-body">
+            <h3>Autonomous Arduino Car</h3>
+            <p class="muted">
+              Designed a custom PCB that integrates all electrical components and sensors in a clean, 
+              compact layout, while also serving as the structural chassis of the vehicle for optimized 
+              form factor and robustness. Implemented embedded control logic in C++ for autonomous 
+              operation using IR and ultrasonic sensors.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2026</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Embedded systems</span>
+              <span class="tag">Sensors</span>
+              <span class="tag">PCB design</span>
+              <span class="tag">C++</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Website -->
+        <article class="card project" data-tags="programming">
+          <img class="card-img" src="images/hemsida.png" alt="Arduino car prototype">
+          <div class="card-body">
+            <h3>Personal Portfolio Website</h3>
+            <p class="muted">
+              Designed and developed this personal engineering portfolio from scratch, 
+              combining clean visual design with structured, maintainable code. 
+              Implemented responsive layouts, reusable components, filtering logic, 
+              and a consistent design system to present projects, experience, and 
+              skills in a clear and scalable way.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2026</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Design</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+        
+        
+        <!-- Robotics Lab -->
+        <article class="card project" data-tags="mechatronics programming">
+          <img class="card-img" src="images/robotiklab.jpeg" alt="Robotics lab setup">
+          <div class="card-body">
+            <h3>ABB Industrial Robot Programming</h3>
+            <p class="muted">
+              Programmed an ABB industrial robot using offline programming in RobotStudio 
+              (RAPID) and online control via ARLA. Implemented control logic and sensor 
+              integration to sort objects of different sizes into designated bins, with a 
+              focus on reliable operation, calibration, and systematic debugging.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2025</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">RobotStudio</span>
+              <span class="tag">Control Logic</span>
+              <span class="tag">RAPID</span>
+              <span class="tag">ARLA</span>
+              <span class="tag">Robotics</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Linear generator -->
+        <article class="card project" data-tags="mechanics">
+          <img class="card-img" src="images/LinjärGenerator.JPG" alt="Linear generator lab">
+          <div class="card-body">
+            <h3>Linear Generator modeling</h3>
+            <p class="muted">
+              Designed and built a linear generator with optimized coil spacing to achieve 
+              constructive electromagnetic induction. Implemented a rectifier to convert AC 
+              to DC, driving a propeller.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2025</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">IV/Power</span>
+              <span class="tag">Efficiency</span>
+              <span class="tag">Electromagnetic induction</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Asynchronous motor -->
+        <article class="card project" data-tags="mechanics">
+          <img class="card-img" src="images/AsynkronMotor.jpeg" alt="Asynchronous motor lab">
+          <div class="card-body">
+            <h3>Asynchronous Motor</h3>
+            <p class="muted">
+              Built and tested an asynchronous motor prototype with focus on slip, torque-speed 
+              characteristics, and loss mechanisms. Applied practical measurement methods to 
+              evaluate performance and compare experimental results to theoretical models.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2025</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Torque</span>
+              <span class="tag">Slip</span>
+              <span class="tag">Asynchronous motor</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Stirling motor -->
+        <article class="card project" data-tags="mechanics">
+          <img class="card-img" src="images/StirlingJAG.jpeg" alt="Stirling engine prototype">
+          <div class="card-body">
+            <h3>Stirling Engine</h3>
+            <p class="muted">
+              Using manual machining, drilling, turning, and fitting, I manufactured all components 
+              of a gamma type Stirling engine. The project involved extensive hands-on workshop work 
+              with a strong focus on dimensional accuracy, tight tolerances, and surface finish.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2025</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Workshop Engineering</span>
+              <span class="tag">Machining</span>
+              <span class="tag">Tolerances</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+
+
+
+        <!-- CERN -->
+        <article class="card project" data-tags="particle">
+          <img class="card-img" src="images/Cern.jpeg" alt="cerm">
+          <div class="card-body">
+            <h3>Particle Physics Studies — CERN</h3>
+            <p class="muted">
+              As part of an advanced high-school physics specialization, I explored particle 
+              physics in depth, covering fundamental concepts behind modern accelerator and 
+              detector physics. The program culminated in a study visit to CERN outside Geneva, 
+              including the Large Hadron Collider (LHC), the world's largest particle accelerator.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">2023</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Particle physics</span>
+              <span class="tag">Large Hadron Collider</span>
+              <span class="tag">Accelerator Physics</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
+            </div> -->
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <footer class="footer muted">
+      © <span id="year"></span> Elin Pernå
+    </footer>
+  </main>
+
+  <script>
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Filter + search (simple, no dependencies)
+    const chips = Array.from(document.querySelectorAll(".chip"));
+    const cards = Array.from(document.querySelectorAll(".project"));
+    const search = document.getElementById("search");
+
+    let activeFilter = "all";
+
+    function apply(){
+      const q = (search.value || "").trim().toLowerCase();
+
+      cards.forEach(card => {
+        const tags = (card.dataset.tags || "").toLowerCase();
+        const text = card.innerText.toLowerCase();
+
+        const matchesFilter = (activeFilter === "all") || tags.includes(activeFilter);
+        const matchesSearch = !q || text.includes(q);
+
+        card.style.display = (matchesFilter && matchesSearch) ? "" : "none";
+      });
+    }
+
+    chips.forEach(btn => {
+      btn.addEventListener("click", () => {
+        chips.forEach(c => c.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        activeFilter = btn.dataset.filter;
+        apply();
+      });
+    });
+
+    search.addEventListener("input", apply);
+  </script>
+</body>
+</html>

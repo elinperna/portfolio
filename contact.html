@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <title>Contact — Elin Pernå</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" style="text-decoration:none; color:inherit;">
+        <div class="brand-dot"></div>
+        <div>
+          <div class="brand-name">Elin Pernå</div>
+          <div class="brand-sub">Portfolio</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Work Experience</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="interests.html">Interests</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section contact-layout">
+
+      <!-- LEFT -->
+      <div class="contact-info">
+        <h1>Let’s get in touch</h1>
+        <p class="muted">Whether it’s a collaboration, a project, or simply a conversation around engineering and problem-solving, I'm always happy to connect.</p>
+
+        <div class="list">
+          <div class="list-item">
+            <div class="li-title">Email</div>
+            <div class="li-meta">
+              <a class="btn btn-ghost" href="mailto:elin.perna@gmail.com">elin.perna@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="list-item">
+            <div class="li-title">Phone</div>
+            <div class="li-meta">
+              <a class="btn btn-ghost" href="tel:+46733768624">+46 73 376 86 24</a>
+            </div>
+          </div>
+
+          <div class="list-item">
+            <div class="li-title">LinkedIn</div>
+            <div class="li-meta">
+              <a class="btn btn-ghost"
+                 href="https://www.linkedin.com/in/elin-pernå-917a32325"
+                 target="_blank"
+                 rel="noopener">
+                Open LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- <div class="list-item">
+            <div class="li-title">CV (PDF)</div>
+            <div class="li-meta">
+              <a class="btn btn-ghost" href="docs/Elin_Perna_CV.pdf" target="_blank" rel="noopener">Open CV</a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="contact-image">
+        <img src="images/contact-portrait.jpeg" alt="Portrait of Elin Pernå" />
+      </div>
+
+    </section>
+
+    <footer class="footer muted">
+      © <span id="year"></span> Elin Pernå
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

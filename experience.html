@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <title>Work Experience — Elin Pernå</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" style="text-decoration:none; color:inherit;">
+        <div class="brand-dot"></div>
+        <div>
+          <div class="brand-name">Elin Pernå</div>
+          <div class="brand-sub">Portfolio</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="experience.html">Work Experience</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero hero--simple">
+      <div class="hero-text">
+        <h1>Work Experience</h1>
+        <p>
+          Read more about roles where I've worked hands-on with measurement, data, engineering workflows
+          and leadership. 
+        </p>
+
+        <div class="filters" aria-label="Experience filters">
+          <button class="chip is-active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="research" type="button">Research</button>
+          <!-- <button class="chip" data-filter="industry" type="button">Industry</button> -->
+          <button class="chip" data-filter="teaching" type="button">Teaching</button>
+          <button class="chip" data-filter="leadership" type="button">Leadership</button>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-title">My dream job</div>
+        <ul class="bullets">
+          <li>I am seeking a technically challenging role where I can combine hands-on engineering, 
+            analytical problem-solving, and continuous learning. </li>
+            <li>I thrive in environments that value depth, precision and long-term impact.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>All roles</h2>
+        <div class="section-actions">
+          <input id="search" class="search" type="search" placeholder="Search" aria-label="Search">
+        </div>
+      </div>
+
+      <div class="grid grid--projects" id="rolesGrid">
+
+        <!-- Research Assistant -->
+        <article class="card role" data-tags="research">
+          <img class="card-img" src="images/Renrumskläder.jpeg" alt="Research assistant work">
+          <div class="card-body">
+            <h3>Research Assistant in Semiconductor Devices</h3>
+            <p class="muted">
+              Performed IV and response curve measurements on a silicon nanowire FET gas sensor using a semiconductor parameter analyzer and probe-station setup. Conducted device characterization including threshold-voltage extraction and hysteresis behaviour, while assisting in cleanroom fabrication processes.
+            <div class="meta">
+              <span class="meta-item">Division of Solid-State Electronics, UU</span>
+            </div>
+              <div class="meta">
+              <span class="meta-item">2025 — Ongoing</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Uppsala, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">IV curves</span>
+              <span class="tag">Probe station</span>
+              <span class="tag">Data analysis</span>
+              <span class="tag"> Cleanroom processes</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read more</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Student Union -->
+        <article class="card role" data-tags="leadership">
+          <img class="card-img" src="images/LusseMonterSI.jpeg" alt="Student union and events">
+          <div class="card-body">
+            <h3>Coordinator of Engineers of Sweden</h3>
+            <p class="muted">
+              Engineers of Sweden is a professional union where I am responsible for the organization in 
+              Uppsala. My work includes coordinating a team to promote the union at the university, 
+              representing the organization at events, communicating with 
+              large groups of students and delivering introductory lectures.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Engineers of Sweden</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">2025 — Ongoing</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Uppsala, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Coordination</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Leadership</span>
+              <span class="tag">Event planning</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read more</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Teaching Assistant -->
+        <article class="card role" data-tags="teaching">
+          <img class="card-img" src="images/TAIntro.jpeg" alt="Teaching assistant work">
+          <div class="card-body">
+            <h3>IT Teaching Assistant</h3>
+            <p class="muted">
+              Assisted engineering students in the course <em>Introduction to Computers</em> by 
+              leading exercise sessions and grading assignments. Supported students in Python programming, 
+              version control with Git and GitHub, LaTeX, and basic Linux/terminal usage.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Department of Information Technology, UU</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">Autumn 2025</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Uppsala, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Teaching</span>
+              <span class="tag">Python</span>
+              <span class="tag">Git</span>
+              <span class="tag">Excel</span>
+              <span class="tag">LaTex</span>
+              <span class="tag">Studium</span>
+              <span class="tag">Linux</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read more</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Scania internship -->
+        <article class="card role" data-tags="research">
+          <img class="card-img" src="images/Scania.jpeg" alt="Industry internship work">
+          <div class="card-body">
+            <h3>Data Analyst Intern</h3>
+            <p class="muted">
+              At Scania, one of Europe's largest heavy-truck manufacturers, I worked within 
+              Autonomous Solutions, implementing validation methods in Databricks for post-perception 
+              data from autonomous trucks. Developed and applied criticality metrics in Applied 
+              Intuition to evaluate vehicle behavior and system performance.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Autonomous Solutions, Scania</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">Summer 2025</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Södertälje, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Data validation</span>
+              <span class="tag">Autonomous systems</span>
+              <span class="tag">Databricks</span>
+              <span class="tag">Applied Intuition</span>
+              <span class="tag">Simulation</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read more</a>
+            </div> -->
+          </div>
+        </article>
+
+        <!-- Maskus -->
+        <article class="card role" data-tags="leadership">
+          <img class="card-img" src="images/Maskus2.jpeg" alt="Leadership and youth coordination at Mariefreds Riding Club">
+          <div class="card-body">
+            <h3>Vice Chairperson of the Youth Section</h3>
+            <p class="muted">
+              Served as Vice Chairperson of the Youth Section for eight years, leading 
+              and coordinating activities for children and young riders. Planned and 
+              executed events and represented the youth division at 
+              external occasions. Developed strong coordination 
+              skills while contributing to an inclusive Equestrian community.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Mariefreds Riding Club</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">Mar 2015 - Apr 2023</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Mariefred, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Leadership</span>
+              <span class="tag">Coordination</span>
+              <span class="tag">Youth Engagement</span>
+              <span class="tag">Event planning</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read more </a>
+            </div> -->
+          </div>
+        </article>
+
+
+        <!-- Stallet -->
+        <article class="card role" data-tags="leadership teaching">
+          <img class="card-img" src="images/Stall.jpeg" alt="Stable">
+          <div class="card-body">
+            <h3>Stable Assistant and Camp Leader</h3>
+            <p class="muted">
+              Worked as a stable assistant, supporting daily stable operations and 
+              horse care. During summer riding camps, I led large participant groups, 
+              taught theory sessions for adult riders, and held introductory riding lessons for children.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Ekelunds Stud and Riding school</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">2017-2023</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Mariefred, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Leadership</span>
+              <span class="tag">Teaching</span>
+              <span class="tag">Safety Responsibility</span>
+              <span class="tag"> Stable Management</span>
+            </div>
+
+            <!-- <div class="card-actions">
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Read more</a>
+            </div> -->
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+
+    <footer class="footer muted">
+      © <span id="year"></span> Elin Pernå
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const chips = Array.from(document.querySelectorAll(".chip"));
+    const cards = Array.from(document.querySelectorAll(".role"));
+    const search = document.getElementById("search");
+
+    let activeFilter = "all";
+
+    function apply(){
+      const q = (search.value || "").trim().toLowerCase();
+
+      cards.forEach(card => {
+        const tags = (card.dataset.tags || "").toLowerCase();
+        const text = card.innerText.toLowerCase();
+
+        const matchesFilter = (activeFilter === "all") || tags.includes(activeFilter);
+        const matchesSearch = !q || text.includes(q);
+
+        card.style.display = (matchesFilter && matchesSearch) ? "" : "none";
+      });
+    }
+
+    chips.forEach(btn => {
+      btn.addEventListener("click", () => {
+        chips.forEach(c => c.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        activeFilter = btn.dataset.filter;
+        apply();
+      });
+    });
+
+    search.addEventListener("input", apply);
+  </script>
+</body>
+</html>

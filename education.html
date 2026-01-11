@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <title>Education — Elin Pernå</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" style="text-decoration:none; color:inherit;">
+        <div class="brand-dot"></div>
+        <div>
+          <div class="brand-name">Elin Pernå</div>
+          <div class="brand-sub">Portfolio</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Work Experience</a>
+        <a class="active" href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero hero--simple">
+      <div class="hero-text">
+        <h1>Education</h1>
+        <p>
+          Learning and academic excellence have always been central to who I am.
+          From graduating with top results in junior high school, pursuing higher education has 
+          always been a clear goal. In parallel my interest in responsibility and decision-making 
+          led me to leadership roles, most notably as a platoon commander where I thrived 
+          in environments that demanded structure, sound judgment, and accountability.
+        </p>
+
+        <div class="filters" aria-label="Education filters">
+          <button class="chip is-active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="science" type="button">Science</button>
+          <button class="chip" data-filter="leadership" type="button">Leadership</button>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-title">This path was chosen, not accidental</div>
+        <ul class="bullets">
+          <li>Already in high school, I actively chose a nationally recognized science program to pursue 
+          my strong interest in physics, mathematics and research. 
+          <!-- That early drive continued through my studies in engineering physics at Uppsala University. -->
+        </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Education highlights</h2>
+        <div class="section-actions">
+          <input id="search" class="search" type="search" placeholder="Search" aria-label="Search">
+        </div>
+      </div>
+
+      <div class="grid grid--projects" id="rolesGrid">
+
+        <!-- University -->
+        <article class="card role" data-tags="science">
+          <img class="card-img" src="images/CivilingRobot.jpeg" alt="Engineering Physics at Uppsala University">
+          <div class="card-body">
+            <h3>Master of Science in Engineering Physics</h3>
+            <p class="muted">
+              Broad and rigorous foundation in advanced physics, mathematics, 
+              and engineering, with a strong practical focus on electronics, measurement systems, prototyping, 
+              and applied physics. Extended studies beyond the core curriculum through elective coursework in 
+              PCB design, CAD and fabrication techniques.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Uppsala Universitet</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">2024-Ongoing</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Uppsala, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Applied Physics</span>
+              <span class="tag">Engineering Physics</span>
+              <span class="tag">Electronics</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Military -->
+        <article class="card role" data-tags="leadership"> 
+          <img class="card-img" src="images/MilitärJag.jpeg" alt="Military service">
+          <div class="card-body">
+            <h3>Platoon commander in artillery meteorology</h3>
+            <p class="muted">
+              Led and coordinated a team responsible 
+              for collecting, analyzing and applying meteorological and geodetic data. Worked with high-altitude 
+              balloon measurements, data validation, and targeting calculations under time pressure. 
+              The role required structured decision-making, clear communication, 
+              and accountability.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Artillery Regiment A9</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">2023-2024</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Skövde, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Leadership</span>
+              <span class="tag">Responsibility</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Meteorology</span>
+              <span class="tag">High-altitude balloons</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- High school -->
+        <article class="card role" data-tags="science">
+          <img class="card-img" src="images/GymnasietDiplom.JPG" alt="High school diploma">
+          <div class="card-body">
+            <h3>High school diploma specialized in physics and mathematics</h3>
+            <p class="muted">
+              Attended a nationally recognized science program with a strong focus on physics and mathematics. Followed an accelerated curriculum and completed university-level coursework during high school, developing advanced analytical thinking and problem-solving skills.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Europaskolan Strängnäs</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">2020-2023</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Strängnäs, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Math</span>
+              <span class="tag">Physics</span>
+              <span class="tag">Problem-solving</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- ULK -->
+        <article class="card role" data-tags="leadership">
+          <img class="card-img" src="images/Maskus.jpeg" alt="maskus">
+          <div class="card-body">
+            <h3>Youth leadership course</h3>
+            <p class="muted">
+              Completed a national youth leadership program organized by the Swedish Equestrian 
+              Federation, focused on responsibility, communication, and group leadership. Training included 
+              leading groups, organizing activities, and representing youth in structured organizational settings.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Swedish Equestrian Federation</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">2019-2020</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Strömsholm, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Leadership</span>
+              <span class="tag">Communication</span>
+              <span class="tag">Youth Engagement</span>
+            </div>
+
+          </div>
+        </article>
+
+
+        <!-- Lise maitner -->
+        <article class="card role" data-tags="science">
+          <img class="card-img" src="images/Lise.png" alt="fysik">
+          <div class="card-body">
+            <h3>Lise Meitner days</h3>
+            <p class="muted">
+              Participated in Lise Meitner-dagarna, a national annual physics conference for high school 
+              students organized by the Swedish Physical Society and held at AlbaNova. The program included 
+              physics lectures and hands-on activities spanning nuclear physics, magnetism, optics, 
+              experimental labs, and contemporary research topics presented by university researchers 
+              and educators.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">The Swedish Physical Society</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">nov 2022</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Stockholm, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Physics</span>
+              <span class="tag">Problem Solving</span>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Astorfysik -->
+        <article class="card role" data-tags="science">
+          <img class="card-img" src="images/Chalmers.JPG" alt="fysik">
+          <div class="card-body">
+            <h3>Physics and astronomy camp</h3>
+            <p class="muted">
+              Participated in a national physics and astronomy camp organized by Ung 
+              Vetenskapssport, hosted at Chalmers University of Technology. The program 
+              focused on advanced topics in physics and astronomy through lectures, 
+              problem-solving sessions, and hands-on activities together with other 
+              high-performing science students.
+            </p>
+
+            <div class="meta">
+              <span class="meta-item">Chalmers University of Technology</span>
+            </div>
+            <div class="meta">
+              <span class="meta-item">sep 2022</span>
+              <span class="meta-dot">•</span>
+              <span class="meta-item">Göteborg, Sweden</span>
+            </div>
+
+            <div class="tags">
+              <span class="tag">Physics</span>
+              <span class="tag">Astronomy</span>
+              <span class="tag">Problem Solving</span>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <footer class="footer muted">
+      © <span id="year"></span> Elin Pernå
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const chips = Array.from(document.querySelectorAll(".chip"));
+    const cards = Array.from(document.querySelectorAll(".role"));
+    const search = document.getElementById("search");
+
+    let activeFilter = "all";
+
+    function apply(){
+      const q = (search.value || "").trim().toLowerCase();
+
+      cards.forEach(card => {
+        const tags = (card.dataset.tags || "").toLowerCase();
+        const text = card.innerText.toLowerCase();
+
+        const matchesFilter = (activeFilter === "all") || tags.includes(activeFilter);
+        const matchesSearch = !q || text.includes(q);
+
+        card.style.display = (matchesFilter && matchesSearch) ? "" : "none";
+      });
+    }
+
+    chips.forEach(btn => {
+      btn.addEventListener("click", () => {
+        chips.forEach(c => c.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        activeFilter = btn.dataset.filter;
+        apply();
+      });
+    });
+
+    search.addEventListener("input", apply);
+  </script>
+</body>
+</html>
