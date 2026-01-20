@@ -72,14 +72,22 @@
 
         <!-- Arduino car -->
         <article class="card project" data-tags="programming mechatronics">
-          <img class="card-img" src="images/ArduinoCAD.png" alt="Autonomous Arduino car">
+          <div class="image-slider" data-images=" images/Arduino2.jpeg, images/ArduinoCAD.png, images/Arduino1.jpeg, images/Arduino3.jpeg">
+            <img class="slider-image" src="images/Arduino2.jpeg" alt="Arduino car prototype">
+
+            <div class="slider-controls">
+              <button class="prev">‹</button>
+              <button class="next">›</button>
+            </div>
+          </div>
+
           <div class="card-body">
             <h3>Autonomous Arduino Car</h3>
             <p class="muted">
               Designed a custom PCB that integrates all electrical components and sensors in a clean, 
-              compact layout, while also serving as the structural chassis of the vehicle. Implemented 
-              embedded control logic in C++ for autonomous operation using an Arduino Nano in 
-              combination with IR and ultrasonic sensors.
+              compact layout, while also serving as the structural chassis of the vehicle for optimized 
+              form factor and robustness. Implemented embedded control logic in C++ for autonomous 
+              operation using IR and ultrasonic sensors.
             </p>
 
             <div class="meta">
@@ -92,12 +100,9 @@
               <span class="tag">PCB design</span>
               <span class="tag">C++</span>
             </div>
-
-            <!-- <div class="card-actions">
-              <a class="btn btn-ghost" href="#" aria-disabled="true">Read (coming soon)</a>
-            </div> -->
           </div>
         </article>
+        
 
         <!-- Website -->
         <article class="card project" data-tags="programming">
@@ -347,3 +352,5 @@
   </script>
 </body>
 </html>
+
+<script src="slider.js"></script>
