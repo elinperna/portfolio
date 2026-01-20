@@ -338,3 +338,45 @@ body::before{
     height: 360px;
   }
 }
+
+
+.image-slider {
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  background: rgba(255,255,255,0.04);
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 10px;       
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+
+  pointer-events: none;
+}
+
+.slider-controls button {
+  pointer-events: auto;
+
+  background: rgba(0, 0, 0, 0.247);
+  color: white;
+  border: none;
+
+  width: 32px;
+  height: 32px;
+
+  font-size: 18px;
+  cursor: pointer;
+
+  border-radius: 6px; 
+  backdrop-filter: blur(6px);
+}
